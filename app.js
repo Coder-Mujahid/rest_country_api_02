@@ -31,8 +31,8 @@ function showModal(data){
     .then(Response=>Response.json())
     .then(singledata=>{
         div.innerHTML=`
-        <div class="card lg:card-side bg-base-100 shadow-xl">
-        <figure class="md:w-[500px]"><img class="h-full rounded-xl" src="${singledata[0].flags.png}" alt="Album"/></figure>
+        <div class="card lg:card-side bg-base-100 shadow-xl p-3 shadow-blue-200">
+        <figure class="lg:w-[600px] md:w-auto w-full"><img class="h-full w-full rounded-xl" src="${singledata[0].flags.png}" alt="Album"/></figure>
         <div class="card-body">
         <h2 class="text-2xl md:text-5xl text-blue-500 text-center font-semibold capitalize md:py-5">${singledata[0].name.common}</h2>
         <h2 class="text-sm lg:text-xl font-semibold capitalize">official name:-<span class="text-red-500">${singledata[0].name.official}</span> </h2>
