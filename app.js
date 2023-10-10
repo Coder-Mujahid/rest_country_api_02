@@ -14,7 +14,7 @@ function displayData(apidata) {
             <h2 class="text-center text-lg md:text-2xl font-bold uppercase text-blue-700">${data.name.common}</h2>
             <p class="text-center font-medium px-5">If you want to know more details about this country then click on the button below</p>
                 <div class="card-actions justify-end">
-            <button onclick="showModal('${data.name.common}')" class=" btn-primary py-2 w-full text-xl rounded-lg"> Details</button>
+                <button class="duration-500 btn-primary py-2 w-full rounded-lg text-xl font-semibold capitalize shadow-sm shadow-black text-black bg-blue-400 hover:bg-blue-500" onclick="showModal('${data.name.common}')" > Details</button>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ function showModal(data){
         <div class="card lg:card-side bg-base-100 shadow-xl">
         <figure class="md:w-[500px]"><img class="h-full rounded-xl" src="${singledata[0].flags.png}" alt="Album"/></figure>
         <div class="card-body">
-        <h2 class="text-2xl md:text-5xl text-blue-500 text-center font-semibold capitalize py-5">${singledata[0].name.common}</h2>
+        <h2 class="text-2xl md:text-5xl text-blue-500 text-center font-semibold capitalize md:py-5">${singledata[0].name.common}</h2>
         <h2 class="text-sm lg:text-xl font-semibold capitalize">official name:-<span class="text-red-500">${singledata[0].name.official}</span> </h2>
         <h2 class="text-sm lg:text-xl font-semibold capitalize">continents:-<span class="text-red-500">${singledata[0].continents}</span> </h2>
         <h2 class="text-sm lg:text-xl font-semibold capitalize">region:-<span class="text-red-500">${singledata[0].region}</span> </h2>
@@ -44,13 +44,13 @@ function showModal(data){
         <h2 class="text-sm lg:text-xl font-semibold capitalize">population:-<span class="text-red-500"> ${singledata[0].population}</span></h2>
 
           <div class="card-actions justify-end">
-          <a target="_blank" class="w-full" href="${singledata[0].maps.googleMaps}"><button class="btn-active w-full py-2 rounded-lg text-xl font-semibold capitalize shadow-sm shadow-black hover:bg-slate-300">view location</button></a>
+          <a target="_blank" class="w-full" href="${singledata[0].maps.googleMaps}"><button class="btn-active w-full py-2 rounded-lg text-xl font-semibold capitalize shadow-sm shadow-black duration-500 bg-blue-400 hover:bg-blue-500">view location</button></a>
           </div>
         </div>
         </div>
         `
         window.scroll({
-            top: 0,
+            top: 100,
             left: 0,
             behavior: "smooth",
           });
