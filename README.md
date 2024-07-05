@@ -1,63 +1,45 @@
-🌍 Rest Country API Explorer
-Welcome to the Rest Country API Explorer! This project is an interactive and futuristic way to explore country data from around the world.
+# 🌍 Rest Country API Explorer 🚀
+
+Welcome to the Rest Country API Explorer! This project is an innovative and engaging way to explore country data from around the world. Discover interesting facts and details about every country on the planet! 🌟
+
+[![Live Demo](https://img.shields.io/badge/Explore-Live%20Demo-brightgreen)](https://coder-mujahid.github.io/rest_country_api_02/)
+[![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/coder-mujahid/)
+[![Twitter](https://img.shields.io/badge/Follow%20on-Twitter-%231DA1F2)](https://twitter.com/coder_mujahid)
 
 
-🚀 Features
-Search Countries: Instantly search for countries by name.
-Detailed Information: Get comprehensive details about each country, including population, region, subregion, capital, and more.
-Responsive Design: Optimized for both desktop and mobile devices.
-Interactive UI: Enjoy a smooth and engaging user experience with modern UI elements.
-🛠️ Technologies Used
-HTML5: The standard markup language for creating web pages.
-CSS3: Modern CSS for styling the application.
-JavaScript: Provides interactivity to the web pages.
-REST Countries API: Fetches real-time data for all the countries.
-🌐 Live Demo
-Check out the live demo here!
+## 🧑‍💻 About the Project
 
-📖 Getting Started
+Rest Country API Explorer is designed to provide detailed information about countries worldwide. Whether you're looking for population statistics, regional data, or the capital city, this project has you covered.
+
+## 🚀 Features
+
+- **Search Countries**: Quickly find countries by name.
+- **Detailed Information**: Access comprehensive details for each country, including population, region, subregion, capital, and more.
+- **Responsive Design**: Optimized for seamless use on both desktop and mobile devices.
+- **Interactive UI**: Enjoy a modern and user-friendly interface.
+
+## 🛠️ Technologies Used
+
+- **Languages**: HTML, CSS, JavaScript
+- **APIs**: REST Countries API
+- **Libraries**: None (Vanilla JavaScript)
+- **Tools**: Git, GitHub Pages
+
+## 🌐 Live Demo
+
+Check out the live demo [here](https://coder-mujahid.github.io/rest_country_api_02/).
+
+## 📖 Getting Started
+
 To get a local copy up and running, follow these simple steps.
 
-Prerequisites
-A web browser
-Internet connection
-Installation
-Clone the repo
-sh
-Copy code
-git clone https://github.com/coder-mujahid/rest_country_api_02.git
-Open the index.html file in your browser
-sh
-Copy code
-open index.html
-📂 Project Structure
-plaintext
-Copy code
-rest_country_api_02/
-├── assets/
-│   ├── styles.css
-│   └── screenshot.png
-├── index.html
-└── script.js
-📊 Data Source
-This project uses the REST Countries API to fetch real-time data for all the countries.
+### Prerequisites
 
-🤝 Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+- A web browser
+- Internet connection
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+### Installation
 
-📧 Contact
-Mujahid - @your_twitter - mujahid@example.com
-
-Project Link: https://coder-mujahid.github.io/rest_country_api_02/
-
-🙏 Acknowledgements
-REST Countries API
-Open Source Community
+1. Clone the repository
+   ```sh
+   git clone https://github.com/coder-mujahid/rest_country_api_02.git
