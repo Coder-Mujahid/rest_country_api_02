@@ -15,7 +15,7 @@ Rest Country API Explorer is designed to provide detailed information about coun
 
 - **Search Countries**: Quickly find countries by name.
 - **Detailed Information**: Access comprehensive details for each Country, including Population, Region, Subregion, Capital, and more.
-- **Responsive Design**: Optimized for seamless use on both desktop and mobile devices.
+- **Responsive Design**: Optimized for seamless use on both Desktop and Mobile devices.
 - **Interactive UI**: Enjoy a modern and user-friendly interface.
 
 ## 🛠️ Technologies Used
