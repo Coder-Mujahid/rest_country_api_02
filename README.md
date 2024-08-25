@@ -1,6 +1,6 @@
 # 🌍 Rest Country API Explorer 🚀
 
-Welcome to the Rest Country API Explorer! This project is an innovative and engaging way to explore country data from around the world. Discover interesting facts and details about every country on the planet! 🌟
+Welcome to the Rest Country API Explorer! This project is an innovative and engaging way to explore country data worldwide. Discover interesting facts and details about every country on the planet! 🌟
 
 [![Live Demo](https://img.shields.io/badge/Explore-Live%20Demo-brightgreen)](https://coder-mujahid.github.io/rest_country_api_02/)
 [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/coder-mujahid/)
